@@ -67,6 +67,6 @@
 
 @media screen and (max-width: 840px) {
   .Bg {
-    right: -20vw;
+    width: 100%;
   }
 }

@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='Intro' spy={true} smooth={true} offset={-100} duration={300} className='DexttopMenuItem'>Home</Link>
                 <Link activeClass='active' to='Skills' spy={true} smooth={true} offset={-100} duration={300} className='DexttopMenuItem'>About</Link>
                 <Link activeClass='active' to='works' spy={true} smooth={true} offset={-100} duration={300} className='DexttopMenuItem'>Portfolio</Link>
-                <Link activeClass='active' to='Intro' spy={true} smooth={true} offset={-100} duration={300} className='DexttopMenuItem'>Projects</Link>
+                <Link activeClass='active' to='Projects' spy={true} smooth={true} offset={-50} duration={300} className='DexttopMenuItem'>Projects</Link>
                 <Link activeClass='active' to='Intro' spy={true} smooth={true} offset={-100} duration={300} className='DexttopMenuItem'>Resume</Link>
             </div>
             <button className='dexttopMenuBtn' onClick={() => {
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='works' spy={true} smooth={true} offset={-100} duration={300} className='ListItem' onClick={() => {
                     setshowMenu(false)
                 }}>Portfolio</Link>
-                <Link activeClass='active' to='Intro' spy={true} smooth={true} offset={-100} duration={300} className='ListItem' onClick={() => {
+                <Link activeClass='active' to='Projects' spy={true} smooth={true} offset={-100} duration={300} className='ListItem' onClick={() => {
                     setshowMenu(false)
                 }}>Projects</Link>
                 <Link activeClass='active' to='Intro' spy={true} smooth={true} offset={-100} duration={300} className='ListItem' onClick={() => {
