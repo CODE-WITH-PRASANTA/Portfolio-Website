@@ -10,7 +10,7 @@
 .Bg {
   position: absolute;
   z-index: -1;
-  top: -4rem;
+  top: 0rem;
   right: 0;
   object-fit: cover;
   height: 100vh;
