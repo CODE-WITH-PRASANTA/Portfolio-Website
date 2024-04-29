@@ -1,0 +1,57 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.WorksTittle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.WorksDesc{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.WorksImgs{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+}
+
+.WorksImg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+.Worksbtn{
+    padding: 0.5rem 2.5rem;
+    background: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width:585px) {
+    .WorksImg{
+        height: 48vw;
+        
+    }
+}

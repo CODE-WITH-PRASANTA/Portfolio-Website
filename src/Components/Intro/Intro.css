@@ -1,0 +1,72 @@
+#Intro {
+  height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 90rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.Bg {
+  position: absolute;
+  z-index: -1;
+  top: -4rem;
+  right: 0;
+  object-fit: cover;
+  height: 100vh;
+}
+.IntroContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Hello {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+.Introname {
+  color: yellow;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.IntroPara {
+  margin-top: 10px;
+  font-size: medium;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  background: white;
+  margin: 1rem 0;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4rem;
+  border: none;
+}
+
+.btnimg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+}
+
+.btn p {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 840px) {
+  .Bg {
+    right: -20vw;
+  }
+}

@@ -1,0 +1,48 @@
+.Navbar {
+  background: rgb(30, 30, 30);
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  max-width: 100rem;
+}
+
+.logo {
+  object-fit: cover;
+  height: 4rem;
+  width: 3.5rem;
+}
+
+.DexttopMenuItem {
+  margin: 1.5rem;
+  cursor: pointer;
+}
+.dexttopMenuImg {
+  object-fit: cover;
+  height: 1rem;
+  width: 1rem;
+  margin: 1rem;
+}
+
+.dexttopMenuBtn {
+  border: none;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}
+
+.DexttopMenuItem:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid yellow;
+}
